@@ -1,0 +1,19 @@
+{
+  "name": "men-api",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to build a simple CRUD backend using Express, Node.js, and MongoDB",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.9.1"
+  }
+}
