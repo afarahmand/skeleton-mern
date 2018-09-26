@@ -51,7 +51,8 @@ function validateUser(req, res, next) {
   });
 
 }
-// express doesn't consider not found 404 as an error so we need to handle 404 explicitly
+// express doesn't consider not found 404 as an error
+//   so we need to handle 404 explicitly
 // handle 404 error
 app.use(function(req, res, next) {
  let err = new Error('Not Found');
